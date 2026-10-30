@@ -1,44 +1,37 @@
-# WBL – ASP.NET Core MVC Web Application
+# Bulky MVC – ASP.NET Core Web Development Project
 
 ## Overview
 
-WBL is a web application developed using ASP.NET Core MVC and C#. The project demonstrates the development of a database-driven web application using a structured Model-View-Controller (MVC) architecture.
+Bulky MVC is a web development project organised around the ASP.NET Core Model-View-Controller (MVC) framework.
 
-It incorporates SQL Server database integration, Entity Framework Core for data access, and ASP.NET Core Identity for user authentication and account management.
+The repository contains a Visual Studio solution and a web application project, providing a foundation for developing and maintaining a structured C# web application.
 
 ## Technology Stack
 
-- **Backend:** C#, ASP.NET Core MVC
-- **Frontend:** Razor Views, ASP.NET Core web interface
-- **Database:** Microsoft SQL Server
-- **ORM:** Entity Framework Core
-- **Authentication:** ASP.NET Core Identity
-- **Development Environment:** Visual Studio / .NET
-
-## Technical Implementation
-
-- **MVC Architecture:** Organises application logic into models, views, and controllers to support maintainability and separation of concerns.
-- **Database Integration:** Uses Entity Framework Core with SQL Server to manage application data.
-- **Authentication:** Configures ASP.NET Core Identity with custom application users and role support.
-- **Database Migrations:** Includes Entity Framework Core migrations for managing database schema changes.
-- **Application Routing:** Uses controller-based routing alongside Razor Pages for Identity functionality.
-- **Logging:** Configures console logging to support application development and troubleshooting.
+- **Programming Language:** C#
+- **Web Framework:** ASP.NET Core MVC
+- **Development Environment:** Visual Studio
+- **Architecture:** Model-View-Controller (MVC)
 
 ## Project Structure
 
-- `Controllers/` – Application request handling and controller logic
-- `Models/` – Application data models
-- `Views/` – Razor-based user interface
-- `Data/` – Database context and data configuration
-- `Migrations/` – Entity Framework Core database migrations
-- `Areas/Identity/` – Identity-related Razor Pages
-- `Utilities/` – Supporting application utilities
-- `wwwroot/` – Static web assets
-- `Program.cs` – Application startup and service configuration
+- `BulkyWeb/` – Main web application project
+- `Bulky.sln` – Visual Studio solution file
+- `.gitignore` – Git version-control exclusions
+- `.gitattributes` – Git repository configuration
 
-## Project Purpose
+## Learning Objectives
 
-This project demonstrates practical experience in building an ASP.NET Core MVC application, configuring database connectivity, integrating user authentication, and organising a web application using established software engineering practices.
+The project provides an opportunity to practise:
+
+- Building web applications using C# and ASP.NET Core.
+- Understanding the MVC architectural pattern.
+- Organising and maintaining web application source code.
+- Working with Visual Studio solutions and Git version control.
+
+## Project Status
+
+Development project. Additional documentation of implemented functionality, dependencies, and setup instructions will be added following a complete code review.
 
 ## Author
 
